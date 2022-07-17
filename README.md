@@ -16,7 +16,7 @@ Stroke Predictions
          i. Replaced our classes with 0 & 1.
         ii. Excluded the outliers.
        iii. Transform categorical variables. (We tested one-hot encoding & feature hashing)
-      iiii. Fill empty rows with total average of respective column.
+      iiii. Filled empty rows with total average of respective column.
         iv. Scaled our dataset so we can normalize the data.
          v. Balanced our dataset.
         vi. Run different classifiers (RandomForest,LightGBM & XGBoost) in order to find the best one.
